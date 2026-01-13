@@ -13,7 +13,7 @@ const __dirname = dirname(__filename);
 
 // Загружаем конфигурацию из JSON файла или .env
 function loadConfig() {
-  const configJsonPath = join(__dirname, 'config.json');
+  const configJsonPath = join('config.json');
   const envPath = join(__dirname, '.env');
   
   // Приоритет: сначала JSON, потом .env
