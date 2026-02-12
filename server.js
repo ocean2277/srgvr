@@ -5,7 +5,7 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
-const CLIENT_ID = "2P4wPAEAHIUORn2tAOr4cXSv6Cb5tuIB";
+const CLIENT_ID = "kJ5grOxsTDFFctYx2ZQdQ7viN7EmoTKn";
 
 app.get("/api/search", async (req, res) => {
     const q = req.query.q || "";
